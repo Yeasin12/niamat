@@ -12,17 +12,49 @@
           <header>
                     <h1 class="text-5xl text-center mt-16">Let's get  <span class="text-cyan-800 font-semibold" > money</span></h1>
           </header>
-          <main>
-                    <section>
-                              <div class="grid grid-clos-3 gap-4">
+          <main class="w-3/4 mx-auto">
+                    <se class="mt-8">
+                         <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto text-white">
+                              <div class="bg-emerald-200 p-8 rounded">
+                                  <h3 class="text-3xl ">Deposit</h3>
+                                  <h4 class="text-5xl">$00</h4> 
+                              </div>
+                              
+                              <div class="bg-emerald-200 p-8 rounded">
+                                  <h3 class="text-3xl ">Withdraw</h3>
+                                  <h4 class="text-5xl">$00</h4> 
+                              </div>
+                              
+                              <div class="bg-emerald-200 p-8 rounded">
+                                  <h3 class="text-3xl ">Balance</h3>
+                                  <h4 class="text-5xl">$1240</h4> 
+                              </div>
+                              
+                         </div>
+                    
+                         <section class="mt-14">
+                              <div class="grid grid-cols-2 ">
+                                   <div class="bg-red-100 ml-32 p-8 rounded">
+                                        <h3 class="text-3xl">Please Diposit</h3>
                                         <div>
-                                             <h3 class="text-3xl">Deposit</h3>
-                                             <h4 class="text-2xl">$00</h4>
-                                        </div>
-                                        <div></div>
-                                        <div></div>
-                              </div>          
-                    </section>
+                                             <input id="deposit-amount" class="rounded block border-b-blue-500 border mb-4 w-3/4 px-2 " type="text" placeholder="please deposit here">
+                                             
+                                             
+                                             <button id="deposit-btn" class="block bg-orange-100 mt-3 px-4 py-2 rounded">Deposit</button>
+                                   </div>
+                                   </div>
+                                   <div class="bg-red-100 ml-32 p-8 rounded">
+                                        <h3 class="text-3xl">Please Diposit</h3>
+                                        <div>
+                                             <input id="Withdraw-amount" class="rounded block border-b-blue-500 border mb-4 w-3/4 px-2 " type="text" placeholder="please Withdraw here">
+                                             
+                                             
+                                             <button id="Withdraw-btn" class="block bg-orange-100 mt-3 px-4 py-2 rounded">Withdraw</button>
+                                   </div>
+                              </div>
+                         
+                         </section>
           </main>
+         <script src="js/bank-cal.js"></script> 
 </body>
 </html>
